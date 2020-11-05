@@ -1,0 +1,30 @@
+{
+  "name": "Figment",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@akadrimer/react-viro": "latest",
+    "@react-native-community/cameraroll": "^4.0.1",
+    "lottie-react-native": "latest",
+    "react": "latest",
+    "react-native": "latest",
+    "react-native-share": "latest",
+    "react-native-video": "latest",
+    "react-redux": "latest",
+    "react-timer-mixin": "latest",
+    "redux": "latest"
+  },
+  "jest": {
+    "preset": "react-native"
+  },
+  "devDependencies": {
+    "babel-jest": "latest",
+    "metro-react-native-babel-preset": "latest",
+    "jest": "latest",
+    "react-test-renderer": "latest"
+  }
+}
