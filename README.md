@@ -1,17 +1,17 @@
 # Figment AR
-This repository contains the entire source code, built using ViroReact and React Native, for Viro Media's Figment AR App. Available on [Google Play](https://play.google.com/store/apps/details?id=com.viro.figment) and [App Store](https://itunes.apple.com/us/app/figment-ar/id1270018902?mt=8).
+This repository contains the entire source code, built using ViroReact and React Native, for Viro Media's Figment AR App.
 
 <img src="screenshots/figment_1.png" width="200"/> <img src="screenshots/figment_2.png" width="200"/> <img src="screenshots/figment_3.png" width="200"/> <img src="screenshots/figment_4.png" width="200"/>
 
 ## Installation
-Follow the installation guide below to set up and run this source code locally on Mac/Linux (For setting up on Windows, go through Windows specific steps to setup Android Studio [here](https://docs.viromedia.com/docs/quick-start-windows) and [here](https://docs.viromedia.com/docs/installing-viro-android)
+1. Clone the repository
+2. Install dependencies through npm install
+3. Run
 
 ### Prerequisites
-1. Make sure you have signed up on www.viromedia.com/signup and have your API key
-2. And have gone through our [Quick Start (Mac/Linux)](https://docs.viromedia.com/docs/quick-start) page and installed the required dependencies.
-3. iOS Device with A9 chip or higher and running iOS 11 or an [ARCore supported device](https://developers.google.com/ar/discover/supported-devices) running Android N or higher.
-4. For iOS - Xcode 9 or later.
-5. For Android - Android Studio for the Android SDK and tools.
+1. iOS Device with A9 chip or higher and running iOS 11 or an [ARCore supported device](https://developers.google.com/ar/discover/supported-devices) running Android N or higher.
+2. For iOS - Xcode 9 or later.
+3. For Android - Android Studio for the Android SDK and tools.
   
     _Make sure to install the Android SDK and build tools for API level 26_
 
@@ -35,8 +35,6 @@ pod install
 Nothing needed here
 
 ### Running and Debugging the app
-#### Add your API key
-Open file `js/app.js`. Update `ViroARSceneNavigator` definition's `apiKey` at lines 127 with your own API Key
 #### Android
 1. For Android, make sure you have downloaded and installed Android Studio from [here](https://developer.android.com/studio/install) to get required SDK and platform-tools for building android apps
     Make sure you have the required environment variables set - `$ANDROID_HOME`, and added `platform-tools` to `$PATH` variable. If not,
